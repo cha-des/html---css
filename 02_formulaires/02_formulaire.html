@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/02_formulaire.css">
+</head>
+<body>
+   <form action="" method="post">
+       <label for="pseudo">Pseudo</label>
+       <input type="text" id="pseudo" name="pseudo" placeholder="saisissez votre pseudo" required><br>
+
+       <label for="mdp">Mot de passe</label>
+       <input type="password" id="mdp" name="mdp" placeholder="saisissez votre mot de passe" required><br>
+
+       <label for="email">Email</label>
+       <input type="email" name="email" placeholder="saisissez votre email" required><br>
+
+       <label for="photo">Photo</label>
+       <input type="file" id="photo" name="photo"><br>
+
+       <label for="question">Quelle destination choisissez-vous?</label><br>
+       <div>
+           <input type="checkbox" name="question" checked>Japon
+           <input type="checkbox" name="question">Tunisie
+           <input type="checkbox" name="question">Porto Rico
+       </div>
+
+       <label for="commentaire">Commentaire</label>
+       <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea><br>
+
+       <input type="submit" name="inscription" value="Envoyer">
+       <button type="reset">Annuler</button>
+
+    
+
+   </form> 
+</body>
+</html>

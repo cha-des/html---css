@@ -1,0 +1,59 @@
+body{
+    font-size: 25px;
+}
+h1{
+    background-color: aqua;
+    color : azure;
+}
+section p{
+    color:coral;
+}
+section p:first-child{
+    color:darkblue;
+}
+
+section p:last-child{
+    color:cadetblue;
+}
+
+section p:nth-child(even){
+    color :lightslategrey;
+}
+
+section p:nth-child(odd){
+    color : brown;
+}
+
+section p:nth-child(3), section p:nth-child(10){
+    color :darkorange;
+}
+
+.zone1{
+    color :#dc143c;
+}
+
+.zone2{
+    color :#008080;
+}
+
+.lime{
+    color :chocolate;
+}
+
+#zone3{
+    background-color: bisque;
+}
+
+#zone3:after{
+    content: "rajouté après";
+    background-color: aqua;
+}
+
+#zone3:before{
+    content: "rajouté avant";
+    background-color: aqua;
+}
+
+div.zone5 ul li:nth-child(2){
+    background-color: darkolivegreen;
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align :center;
+    background-color:aliceblue;
+}
+
+.container{
+    width: 80%;
+    border: 2px solid olive;
+    margin: auto
+}
+
+.row{
+    display: flex;
+}
+
+.col_4{
+    width: 33.333333%;
+}
+
+.bleue{
+    background-color: blue;
+}
+
+.rose{
+    background-color: pink;
+}
+
+.vert{
+    background-color: green;
+}
+
+section{
+    justify-content: space-around;
+}
+
+.test{
+    width: 150px;
+    height: 150px;
+}
+

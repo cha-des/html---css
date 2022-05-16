@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+
+header{
+    height: 70vh;
+    background: url(../img/social-media.jpg) no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+}
+
+
+    

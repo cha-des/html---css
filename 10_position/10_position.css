@@ -1,0 +1,29 @@
+nav{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed; /* La position fixed va permettre de maintenir une zone tjrs affichée ! très utile pour la barre de nav*/
+    top: 0; /* positionné 0px du haut*/
+    left: 0; /* positionné 0px de la gauche*/
+}
+
+#zone{
+    border: 2px solid red;
+}
+
+.vert{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.red{
+    color: red;
+    position: relative;
+    left: 50%;
+    top: -30px;
+}

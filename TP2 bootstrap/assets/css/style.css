@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-size:16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6F6F6F;
+    line-height: 1.625;
+}
+
+header{
+    height: 70vh;
+    background: url(../img/social-media.jpg) no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+}
+
+footer{
+    height: 10vh;
+    background-color: #6F6F6F;
+}

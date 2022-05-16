@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    height: 50vh;
+    background: url(social-media.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    height: 10vh;
+}
+
+div.blue, div.red, div.green{
+    width: 150px;
+    height: 150px;
+}
+
+div.blue{
+    background-color: blue;
+}
+
+div.red{
+    background-color: red;
+}
+
+div.green{
+    background-color: green;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}

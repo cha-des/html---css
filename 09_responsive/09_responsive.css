@@ -1,0 +1,35 @@
+/* Medias queries permettent de réaménager le style (toutes propriétés CSS) en fonction des tailles d'écran de navigateur*/
+
+/*Possibilité de faire un fichier CSS uniquement pour le responsive*/
+
+
+
+.zone-adaptative{
+    background-color: coral;
+    color: aqua;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {     /* À partir de et au-dessus*/
+    .zone-adaptative{
+        background-color: darkgray;
+        width: 400px;
+    }
+    .d-flex{
+        display: flex;
+    }
+}
+
+@media (min-width: 992px){
+    .zone-adaptative{
+        background-color: blueviolet;
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px){
+    .zone-adaptative{
+        background-color: darkgreen;
+        width: 1270px;
+    }
+}

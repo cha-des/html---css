@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        #couleurRgb, #couleurHex, #couleurGradient {
+            width: 150px;
+            height: 150px;
+        }
+        #couleurHex{
+            background-color: rgb(6, 187, 193);
+            opacity: 0.5; <--s'applique sur le texte également-->
+        }
+
+        #couleurRgb{
+            background-color: rgba(104, 82, 12, 0.5);
+        }
+        
+        #couleurGradient{
+            background: linear-gradient(#E5989B, #6D6875);
+        }
+    </style>
+
+
+
+</head>
+
+
+<body>
+    <div id="couleurRgb">Test</div>
+    <div id="couleurHex">Test</div>
+    <div id="couleurGradient">Test</div>
+</body>
+</html>

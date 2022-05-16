@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    margin-left: auto;
+    background-color: white;
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.logo{
+    margin-right: auto;
+    letter-spacing: 0.3em;  
+}
+
+li, li a{
+    color: darkgray;
+    text-shadow: 0.5px 0.5px 0.5px darkgray;
+    text-decoration: none; /* Permet de retirer le soulignement des liens */
+}
+ 
+a:hover{
+    color: black;
+}
+
+
+header{
+    background-image: url(../img/building.jpg); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 200px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.fondateurs{      
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:darkgray;
+    font-size: 25px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.row{
+    display: flex;  
+    justify-content: space-around;      
+}
+
+.bloc{        
+    width: 250px;  /* Ici il faut que le width soit en px et non en % sinon justify-content ne s'applique pas. Je n'ai pas bien compris pourquoi. */
+}
+
+.titre_bloc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    color: black;
+}
+
+p{
+  color: darkgray;
+  font-size: 12px;
+}
+
+.padd{
+    padding-bottom: 10px;
+}
+
+input{     
+    height: 25px;
+    width: 250px;
+    border: none;
+    background-color: lightgrey;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+input:hover{
+    cursor: pointer; 
+    color:black
+}
+
+.mention{
+    background-color: lightgrey;
+    color:rgb(112, 112, 112);
+    height: 25px;
+    font-size: 13px;
+    display:flex;
+    justify-content: center;  
+    align-items: center;    
+}

@@ -1,0 +1,43 @@
+/* Commentaire */
+
+*{
+    text-align:right;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: blue;
+    color:white;
+    height: 100px;
+}
+
+nav{
+    background-color: coral;
+    height: 60px;
+}
+
+section{
+    background-color: blueviolet;
+    height: 550px;
+}
+
+nav, footer{
+    color:yellow
+}
+
+footer{
+    background-color: aquamarine;
+    height: 60px;
+}
+.jaune{
+    background-color: darkcyan;
+}
+#noir{
+    background-color: black;
+    color:white;
+    font-size: 25px;
+
+}
